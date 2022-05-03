@@ -1,5 +1,5 @@
 #!groovy
-@Library('Sharelibrary') _
+@Library('sharelibrary') _
 string buildType = "${env.buildType}"
 string buildShell = "${env.buildShell}"
 def build = new org.devops.build()
